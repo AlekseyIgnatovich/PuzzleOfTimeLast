@@ -46178,6 +46178,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1597033771}
     - target: {fileID: 1106105480141425842, guid: edeb68d96016d2d48b331eedeb4d4bfb, type: 3}
+      propertyPath: enableAutoLogin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106105480141425842, guid: edeb68d96016d2d48b331eedeb4d4bfb, type: 3}
       propertyPath: loginRegisterUI
       value: 
       objectReference: {fileID: 6305626}
