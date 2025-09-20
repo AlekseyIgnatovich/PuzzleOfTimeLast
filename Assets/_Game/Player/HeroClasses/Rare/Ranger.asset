@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52ffc79e5837e541b2debf35bd05cab, type: 3}
+  m_Name: Ranger
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 0.4077798, b: 0, a: 1}
+  Name: Ranger
+  description: The Ranger can deal damage to all enemies.
+  rarity: 2
+  special: {fileID: 11400000, guid: 45b6030d8f21cc143a1030a7f0a5a397, type: 2}
+  attackModifier: 9
+  defenseModifier: 9
+  healthModifier: 9
+  specialModifier: 0.3

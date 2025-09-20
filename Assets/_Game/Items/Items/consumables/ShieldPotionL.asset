@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1004afcf528ec429ca6ea0f4f378d3, type: 3}
+  m_Name: ShieldPotionL
+  m_EditorClassIdentifier: 
+  id: shlpotionl
+  item:
+    Name: Large Shield Potion
+    effect: {fileID: 11400000, guid: abe1681425c74914ca4c860a117ef4a4, type: 2}
+    targetType: 1
+    sprite: {fileID: 21300000, guid: 5e11ed43cf821e54fb2b4eac8384c30d, type: 3}
+    coinsCost: 1000
+    diamondsCost: 100
+    videoCheck: {fileID: 11400000, guid: 318a6dedfd3cc444b828945f871ca149, type: 2}

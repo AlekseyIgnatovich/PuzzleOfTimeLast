@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1106105479052473833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106105479052473834}
+  - component: {fileID: 1106105479052473835}
+  m_Layer: 0
+  m_Name: Firestore Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1106105479052473834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106105479052473833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1106105480141425841}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106105479052473835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106105479052473833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fdbb3d701e57b4c916c8b2365485e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1106105480141425840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106105480141425841}
+  - component: {fileID: 1106105480141425842}
+  m_Layer: 0
+  m_Name: FirebaseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1106105480141425841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106105480141425840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 447180288456404486}
+  - {fileID: 1106105479052473834}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106105480141425842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106105480141425840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282fb2ae908154e43b5ce04cef26edfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  loginRegisterUI: {fileID: 0}
+  disableAutoLogin: 1
+  firebaseAuthManager: {fileID: 447180288456404489}
+  firestoreManager: {fileID: 1106105479052473835}
+--- !u!1001 &1106105480033018137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1106105480141425841}
+    m_Modifications:
+    - target: {fileID: 679226644065095441, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_Name
+      value: FirebaseAuthenticator
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.58276
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1198.0767
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.364296
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+--- !u!4 &447180288456404486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 679226644065095455, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+  m_PrefabInstance: {fileID: 1106105480033018137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &447180288456404489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 679226644065095440, guid: 5f5bf9ccd3ca88e41833f8ce79d028fb, type: 3}
+  m_PrefabInstance: {fileID: 1106105480033018137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd598cb63788fb741850347a43e56f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

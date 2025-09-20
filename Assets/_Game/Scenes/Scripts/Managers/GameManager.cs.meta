@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 326bd39c4645fb34bab88d5b30c22352
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - settings: {instanceID: 0}
+  - mapsData: {instanceID: 0}
+  - levelsData: {instanceID: 0}
+  - titansData: {instanceID: 0}
+  - ads: {instanceID: 0}
+  - audioData: {instanceID: 0}
+  - notificationsManager: {instanceID: 0}
+  - currentScreen: {instanceID: 0}
+  - mainMenuScreen: {instanceID: 0}
+  - inventoryScreen: {instanceID: 0}
+  - itemsScreen: {instanceID: 0}
+  - worldMapScreen: {instanceID: 0}
+  - levelSelectScreen: {instanceID: 0}
+  - gameplayScreen: {instanceID: 0}
+  - shopScreen: {instanceID: 0}
+  - settingsScreen: {instanceID: 0}
+  - levelupScreen: {instanceID: 0}
+  - loadoutScreen: {instanceID: 0}
+  - heroSelectScreen: {instanceID: 0}
+  - itemSelectScreen: {instanceID: 0}
+  - diamondsShopScreen: {instanceID: 0}
+  - heroUnlockScreen: {instanceID: 0}
+  - mapSelectScreen: {instanceID: 0}
+  - titanSelectScreen: {instanceID: 0}
+  - allItems: {instanceID: 0}
+  - heroBase: {instanceID: 0}
+  - itemsData: {instanceID: 0}
+  - canvas: {instanceID: 0}
+  - infoPop: {instanceID: 0}
+  - mapName: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

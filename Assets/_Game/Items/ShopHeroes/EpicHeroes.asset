@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215ca18751eae814a89f3c31cf3610e6, type: 3}
+  m_Name: EpicHeroes
+  m_EditorClassIdentifier: 
+  canBuyWithVideo: 0
+  Name: Epic Hero
+  costCoins: 10000
+  costDiamonds: 1000
+  card:
+  - {fileID: 11400000, guid: c29ff1c36162e4827bb63cda6a7261c3, type: 2}
+  - {fileID: 11400000, guid: 02dad89259a3448e6a1202b2acab2b7c, type: 2}
+  - {fileID: 11400000, guid: fafed9d24d2c046c4952774ceb32717d, type: 2}
+  - {fileID: 11400000, guid: dae3ef217f73848e3805bb82467e40b7, type: 2}
+  - {fileID: 11400000, guid: 3d98600d7d73d4f9c8f747478fdff47e, type: 2}
+  - {fileID: 11400000, guid: 2426666c12a2a4a9abcf2e0eabc2c09b, type: 2}
+  - {fileID: 11400000, guid: 08c749845c9c54598b55da0066a807c7, type: 2}
+  - {fileID: 11400000, guid: fe559907959884e67bacb7f77b65a217, type: 2}
+  - {fileID: 11400000, guid: 66fb0ad47f30e4eb29822051ab7cc9ab, type: 2}
+  - {fileID: 11400000, guid: fd03a069e6a5a433f9a027985790f2a9, type: 2}
+  - {fileID: 11400000, guid: 385fb1d8f18f746e0a570b7cb8113e15, type: 2}
+  - {fileID: 11400000, guid: cc52d5e915e154d47a80ba1028265f51, type: 2}
+  - {fileID: 11400000, guid: 27c03459f09dd45e5b4f128f81c5032c, type: 2}
+  - {fileID: 11400000, guid: 4e0db2db781cc4404824f40e927c35f9, type: 2}
+  - {fileID: 11400000, guid: 3c2e518aabe134d258d237d2f1414eb9, type: 2}
+  - {fileID: 11400000, guid: 5550532f86569423d81f74135b9a5b62, type: 2}
+  - {fileID: 11400000, guid: 484da4756b0304dbe90f70716a9f0e78, type: 2}
+  - {fileID: 11400000, guid: 40191fd4fcbfa49829e051610fb3123a, type: 2}
+  - {fileID: 11400000, guid: 8f2ed20891b0e470d8b0ad7d7245efde, type: 2}
+  - {fileID: 11400000, guid: a75ee5307f9ac45ba8f5c823c55eb6d1, type: 2}
+  - {fileID: 11400000, guid: de219101c92c94ec8aa2857ad2c1c302, type: 2}
+  - {fileID: 11400000, guid: d8a69465ce0a54c78a4af21b79806ae3, type: 2}
+  - {fileID: 11400000, guid: 0b7132b3aead447109d3817f37bc3eab, type: 2}
+  - {fileID: 11400000, guid: 2f8c483cf28e94830bf77d33d3577d02, type: 2}
+  - {fileID: 11400000, guid: a1123c7564f2548d597883874a674d26, type: 2}
+  - {fileID: 11400000, guid: d14b5d0d949a848ccb23625b85a6390a, type: 2}
+  - {fileID: 11400000, guid: 25fb503a0307b4520a95609fdda6b8b5, type: 2}
+  - {fileID: 11400000, guid: 79fde931212374cc999a62a83cedfc64, type: 2}
+  - {fileID: 11400000, guid: 3277c969464164883933b9eae9478236, type: 2}
+  - {fileID: 11400000, guid: b328883211b7f4064a0e50131ba431c3, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec1190ee3f2e1e4dad0c853a6e109b5, type: 3}
+  m_Name: 3 - Red - Aronne
+  m_EditorClassIdentifier: 
+  Name: Aronne
+  maxHealth: 619
+  health: 619
+  attack: 622
+  defense: 637
+  type: 1
+  specialMaxPoints: 12
+  specialPercent: 6.05
+  rarity: 2
+  heroClass: {fileID: 11400000, guid: 7af14477f07cb66499db095d6545eba3, type: 2}
+  sprite: {fileID: 21300000, guid: cfdfc90c1705a454ab1d1700e24f5a05, type: 3}
+  cardSprite: {fileID: 21300000, guid: c9a0d3bc0fea049db8d97f64e844bf12, type: 3}
+  gameSprite: {fileID: 21300000, guid: a683698205a194c09a6024129c865e22, type: 3}
+  attackSFX: {fileID: 8300000, guid: 6c2b002318d09044eb5a64711ad3fa71, type: 3}
+  attackSpecialSFX: {fileID: 8300000, guid: ee5bd7530ffbc974ea1c39c4cf55ed90, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 7a35010df414d4d409a404f10df5d0df, type: 3}
+  deathSFX: {fileID: 8300000, guid: 1d329e712ea18404ebb76ca87a3fc814, type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec1190ee3f2e1e4dad0c853a6e109b5, type: 3}
+  m_Name: 5 - Green - Daphne
+  m_EditorClassIdentifier: 
+  Name: Daphne
+  maxHealth: 1162
+  health: 1162
+  attack: 1288
+  defense: 1203
+  type: 3
+  specialMaxPoints: 9
+  specialPercent: 7.55
+  rarity: 4
+  heroClass: {fileID: 11400000, guid: bb22b81bc876aa64985fb5fdda16600c, type: 2}
+  sprite: {fileID: 21300000, guid: 122cc39be18a04e93bf530b96d1c0b3d, type: 3}
+  cardSprite: {fileID: 21300000, guid: 1c9319ed91e3840e1829886c7d7a8eee, type: 3}
+  gameSprite: {fileID: 21300000, guid: f063888fb8ce848a68debd3b04a45ea4, type: 3}
+  attackSFX: {fileID: 8300000, guid: 6c2b002318d09044eb5a64711ad3fa71, type: 3}
+  attackSpecialSFX: {fileID: 8300000, guid: ee5bd7530ffbc974ea1c39c4cf55ed90, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 7a35010df414d4d409a404f10df5d0df, type: 3}
+  deathSFX: {fileID: 8300000, guid: 1d329e712ea18404ebb76ca87a3fc814, type: 3}

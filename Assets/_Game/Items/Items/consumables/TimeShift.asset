@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1004afcf528ec429ca6ea0f4f378d3, type: 3}
+  m_Name: TimeShift
+  m_EditorClassIdentifier: 
+  id: timeshift
+  itemCase: 0
+  amount: 0
+  item:
+    Name: Time Shift
+    effect: {fileID: 11400000, guid: fbb4c807eef4d1442903c48c9b5d88c6, type: 2}
+    targetType: 3
+    sprite: {fileID: 21300000, guid: c016ba1ebad43a3458bc8a505c40dcf5, type: 3}
+    coinsCost: 1500
+    diamondsCost: 150
+    videoCheck: {fileID: 11400000, guid: 318a6dedfd3cc444b828945f871ca149, type: 2}
+  selected: 0

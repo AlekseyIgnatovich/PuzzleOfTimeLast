@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dfc2ec9c5d64449aeef780d9e8d5f7, type: 3}
+  m_Name: 100 King
+  m_EditorClassIdentifier: 
+  Name: King
+  maxHealth: 84000
+  health: 84000
+  attack: 1020
+  defense: 2219
+  turnsCount: 4
+  abilities:
+  - Name: Health Restore
+    uses: 3
+    chanse: 0.8
+    usesTake: 1
+    condition: 3
+    conditionValue: 0.5
+    type: 0
+    applyValue: 1
+  - Name: Mob Resurrection
+    uses: 2
+    chanse: 0.7
+    usesTake: 1
+    condition: 0
+    conditionValue: 0
+    type: 1
+    applyValue: 0
+  value: 1000
+  isHero: 0
+  animator: {fileID: 9100000, guid: db0b29d3c2a8f4c408d09f9ba26ee30c, type: 2}
+  size: {x: 6, y: 6}
+  attackSFX: {fileID: 8300000, guid: 6c2b002318d09044eb5a64711ad3fa71, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 585ba81742401cb4a9a64e16aa556899, type: 3}
+  deathSFX: {fileID: 8300000, guid: 8b23c08e9e587cc468f4d737421a0df0, type: 3}
+  sprite: {fileID: -577460782, guid: e6831887af0bb034d828e1207a412305, type: 3}
+  isCustom: 0
+  type: 4
+  resistances:
+  - type: 1
+    modifier: 1.5
+  - type: 2
+    modifier: 0.5

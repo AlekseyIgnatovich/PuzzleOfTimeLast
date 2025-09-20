@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD2LBTpmea8sAr_KJBKFxKSiaO9-kR1BfU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>119382154135</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KnoxDigital.PuzzleOfTime</string>
+	<key>PROJECT_ID</key>
+	<string>kd-puzzle-of-time</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kd-puzzle-of-time.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:119382154135:ios:69be2a89ca356d5e22c2d2</string>
+	<key>DATABASE_URL</key>
+	<string>https://kd-puzzle-of-time-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

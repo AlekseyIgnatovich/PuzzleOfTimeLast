@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9622225e1c510554d961852f3853bd74, type: 3}
+  m_Name: AddShieldToHeroM
+  m_EditorClassIdentifier: 
+  description: Adds 50% of Hero Max Health as points of Shield to Hero.
+  effect:
+    Name: Shield
+    uses: 1
+    shield: 0
+    maxShield: 0
+    depleteOnUse: 0
+  healthPercent: 0.5
+  allHeroes: 0
+  targetHero: 1
+  targetAndAdjecentHeroes: 0

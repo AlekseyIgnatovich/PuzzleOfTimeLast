@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519d9fd3da5905a4bbea9077bf983047, type: 3}
+  m_Name: Effect Blue
+  m_EditorClassIdentifier: 
+  entity: {fileID: 0}
+  description: Consume this potion to summon a Hero
+  maxRewards: 1
+  icon: {fileID: 0}
+  reward:
+  - chanse: 0.25
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 4b9ad7c35ad9c4fec955475befdcdd94, type: 2}
+  - chanse: 0.25
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 45a44ab29bb0541208342159bde9b4d8, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 4cf8debccb6e3ca4abc4874ec15364ed, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 2f4c3c6a5587b724c9be003a19f04dc5, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 9e2c7842dd3f03c4ab879717d6c6cf41, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: e2f0552ac9a064fd4a36b090b5a18c33, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 511334a5177e04fe9aa04750990ec2cc, type: 2}
+  - chanse: 0.35
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 6577d716ce86b41638ed8ebe523bdb65, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 5171010c9179ca5409425b6c2abb0a95, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 066d5fe8e45884deeaedc98698d08acf, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 9615cd5c81eb047eeabd56d7139ac692, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: bfe504a7f83a34eb2bd75e76852ceb38, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: cf48b393fd4544be4a495e83c7c08f16, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 14b9408e4d2bb4492ab278e9f737d7e9, type: 2}
+  - chanse: 0.3
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 736454a3a423e44cf9c9eae680e1d0d3, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: a1123c7564f2548d597883874a674d26, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: d14b5d0d949a848ccb23625b85a6390a, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 25fb503a0307b4520a95609fdda6b8b5, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 79fde931212374cc999a62a83cedfc64, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 3277c969464164883933b9eae9478236, type: 2}
+  - chanse: 0.08
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: b328883211b7f4064a0e50131ba431c3, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 82b745d16fd624ef3b2895312526e1bd, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: c0cd84518a17d4794a04209d1a359df4, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 30f4fa23739fa44d285a4ea81a42acc6, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 4400e94542f3b457fbe6b4ea788557dc, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 5666a7284f8f54c3b99fb8d1476d9bb3, type: 2}
+  - chanse: 0.02
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 875164def743d4a60ba4d8211dae8181, type: 2}

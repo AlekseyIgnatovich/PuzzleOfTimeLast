@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dba936abf3e9846a86f0eed7883997, type: 3}
+  m_Name: Guardian
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 0.7013531, b: 1, a: 1}
+  Name: Guardian
+  description: The Guardian`s special attack can strike the adjecent enemies to the
+    target and either buff allies or nerf enemies, chosen at random.
+  rarity: 4
+  special: {fileID: 11400000, guid: be8acc005ca24ab43917ca0729b2ed01, type: 2}
+  attackModifier: 8
+  defenseModifier: 8
+  healthModifier: 8
+  specialModifier: 0.1

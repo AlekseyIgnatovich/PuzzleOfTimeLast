@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dfc2ec9c5d64449aeef780d9e8d5f7, type: 3}
+  m_Name: 6 Wolf
+  m_EditorClassIdentifier: 
+  Name: Wolf
+  maxHealth: 6840
+  health: 6840
+  attack: 415
+  defense: 328
+  turnsCount: 4
+  abilities: []
+  value: 20
+  isHero: 0
+  animator: {fileID: 9100000, guid: 4d5df8955b115694c85f5fe1fac28c42, type: 2}
+  size: {x: 3, y: 3}
+  attackSFX: {fileID: 8300000, guid: 38179bf0f10ddc64185f8a76666a8add, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 585ba81742401cb4a9a64e16aa556899, type: 3}
+  deathSFX: {fileID: 8300000, guid: 8b23c08e9e587cc468f4d737421a0df0, type: 3}
+  sprite: {fileID: 1190333133, guid: 4bd912c28b8da834cb3f5e7c0754ee5e, type: 3}
+  isCustom: 0
+  type: 4
+  resistances:
+  - type: 5
+    modifier: 1.5
+  - type: 4
+    modifier: 0.5

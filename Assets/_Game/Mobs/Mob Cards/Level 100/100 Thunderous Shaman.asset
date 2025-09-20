@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dfc2ec9c5d64449aeef780d9e8d5f7, type: 3}
+  m_Name: 100 Thunderous Shaman
+  m_EditorClassIdentifier: 
+  Name: Thunderous Shaman
+  maxHealth: 28350
+  health: 28350
+  attack: 653
+  defense: 1428
+  turnsCount: 4
+  abilities: []
+  value: 20
+  isHero: 0
+  animator: {fileID: 9100000, guid: e7a8e3d81eb874f448c164753766f83d, type: 2}
+  size: {x: 6, y: 5.3}
+  attackSFX: {fileID: 8300000, guid: 38179bf0f10ddc64185f8a76666a8add, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 585ba81742401cb4a9a64e16aa556899, type: 3}
+  deathSFX: {fileID: 8300000, guid: 8b23c08e9e587cc468f4d737421a0df0, type: 3}
+  sprite: {fileID: 21300000, guid: 908e129bf713d804a8c4db00977c4776, type: 3}
+  isCustom: 0
+  type: 1
+  resistances:
+  - type: 2
+    modifier: 1.5
+  - type: 3
+    modifier: 0.5

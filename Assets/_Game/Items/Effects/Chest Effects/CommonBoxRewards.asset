@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519d9fd3da5905a4bbea9077bf983047, type: 3}
+  m_Name: CommonBoxRewards
+  m_EditorClassIdentifier: 
+  entity: {fileID: 0}
+  description: Open this Lootbox in your inventory and gain a reward.
+  maxRewards: 0
+  icon: {fileID: 0}
+  isLootBox: 1
+  reward:
+  - chance: 0
+    minAmount: 0
+    maxAmount: 0
+    coinsRange: {x: 0, y: 0}
+    diamondsRange: {x: 0, y: 0}
+    item: {fileID: 0}
+    card: {fileID: 0}
+    isLootBoxReward: 1
+    coinsAmount: 250
+    diamondsAmount: 0
+    minMaxItemsAmount: {x: 1, y: 1}
+    heroAmount: 0
+    heroRarity: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25428d5eea2e9b64e9e645b45ae5c447, type: 3}
+  m_Name: HeroCommon
+  m_EditorClassIdentifier: 
+  type: 0
+  cards:
+  - {fileID: 11400000, guid: 7dc8ac865dabb47a99bc239347da6085, type: 2}
+  - {fileID: 11400000, guid: 4b9ad7c35ad9c4fec955475befdcdd94, type: 2}
+  - {fileID: 11400000, guid: 45a44ab29bb0541208342159bde9b4d8, type: 2}
+  - {fileID: 11400000, guid: bb139f6370bfc44d388959bc4ca44258, type: 2}
+  - {fileID: 11400000, guid: 8c1e2f0ac4def42159d51e1bd5f35c92, type: 2}
+  - {fileID: 11400000, guid: 29a805470039e4199b76c6fdefb3078b, type: 2}
+  - {fileID: 11400000, guid: de0349612a15248dc841273feed7d045, type: 2}
+  - {fileID: 11400000, guid: 24069815f106b4848952c192226087a5, type: 2}
+  - {fileID: 11400000, guid: 97f62ee18325349c8b5321cfb519aa89, type: 2}
+  - {fileID: 11400000, guid: e641354e2389443ceb8c39bb5b0755a8, type: 2}

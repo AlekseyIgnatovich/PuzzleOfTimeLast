@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc82710d05e3ee94fbad93e5879d3a59, type: 3}
+  m_Name: TitanData
+  m_EditorClassIdentifier: 
+  titanSet:
+  - titan: {fileID: 11400000, guid: 4e12771b4bcaf9d40a4dd401107e52b4, type: 2}
+    titanHealth: 500000
+    timer: 0
+    timerSet: 30
+    battleLog: []
+    battleLogDamage: []
+  titans:
+  - {fileID: 11400000, guid: dbc97567004bc9e4d9ef0471de9c765c, type: 2}
+  - {fileID: 11400000, guid: 7be08df67f7ac1440a2d16bf98c58613, type: 2}
+  - {fileID: 11400000, guid: 67e32cb22fc094942b58022c345254b2, type: 2}
+  - {fileID: 11400000, guid: c3b3923eff4e1264fa63b0273bb836e7, type: 2}
+  - {fileID: 11400000, guid: 77bf2a8604284264f8204c9ac0753e0e, type: 2}
+  - {fileID: 11400000, guid: b08bfedcd5ae3534bb1124d1c00616c1, type: 2}
+  - {fileID: 11400000, guid: 43f1762be28876c4a973315945ab8e97, type: 2}
+  - {fileID: 11400000, guid: d151caabc2c1d5648b61b0e5dda5582d, type: 2}
+  - {fileID: 11400000, guid: 7d903c0f96663894a8c7870aac0c36c4, type: 2}
+  - {fileID: 11400000, guid: 3e27b1d0f88dac94fa3cba7fd0048124, type: 2}
+  - {fileID: 11400000, guid: 4e12771b4bcaf9d40a4dd401107e52b4, type: 2}
+  - {fileID: 11400000, guid: 30f6771d469fec54e84802f5bcde3cff, type: 2}
+  - {fileID: 11400000, guid: e1554dbce07551841a065db8a0fe87bc, type: 2}
+  - {fileID: 11400000, guid: b5ea811804313074eba1bd97cc0d51e3, type: 2}
+  - {fileID: 11400000, guid: 0a33bb9d826f94348ba2bdb414fbb53b, type: 2}
+  - {fileID: 11400000, guid: 39f0382cc613ed64ca930e2557f2f04d, type: 2}
+  - {fileID: 11400000, guid: b3492103dfcc52a4a92d2c4ff7c0890d, type: 2}
+  - {fileID: 11400000, guid: a07e08c39096dfd49b3ddbe77cdaaa4e, type: 2}
+  currentTitanIndex: 10

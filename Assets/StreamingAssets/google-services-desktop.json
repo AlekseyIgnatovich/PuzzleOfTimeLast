@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "119382154135",
+    "firebase_url": "https://kd-puzzle-of-time-default-rtdb.firebaseio.com",
+    "project_id": "kd-puzzle-of-time",
+    "storage_bucket": "kd-puzzle-of-time.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119382154135:android:f8c131a3755dc0dd22c2d2",
+        "android_client_info": {
+          "package_name": "com.KnoxDigital.PuzzleOfTime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32N8ToVoskqfWHpmy2yldzgX1AI9jUxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

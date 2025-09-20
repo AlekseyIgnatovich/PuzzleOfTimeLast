@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec1190ee3f2e1e4dad0c853a6e109b5, type: 3}
+  m_Name: 5 - Red - Aslan
+  m_EditorClassIdentifier: 
+  Name: Aslan
+  maxHealth: 1242
+  health: 1242
+  attack: 1223
+  defense: 1255
+  type: 1
+  specialMaxPoints: 12
+  specialPercent: 7.46
+  rarity: 4
+  heroClass: {fileID: 11400000, guid: e90ebfa53b0385f408e13e5618103c0a, type: 2}
+  sprite: {fileID: 21300000, guid: 8e76ea93ee47d422cb5513edd9e3e655, type: 3}
+  cardSprite: {fileID: 21300000, guid: d5ea206165e6c416683246b1b6519ca6, type: 3}
+  gameSprite: {fileID: 21300000, guid: 411eba5e0988d446293c4556c9da1109, type: 3}
+  attackSFX: {fileID: 8300000, guid: 6c2b002318d09044eb5a64711ad3fa71, type: 3}
+  attackSpecialSFX: {fileID: 8300000, guid: ee5bd7530ffbc974ea1c39c4cf55ed90, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 7a35010df414d4d409a404f10df5d0df, type: 3}
+  deathSFX: {fileID: 8300000, guid: 1d329e712ea18404ebb76ca87a3fc814, type: 3}

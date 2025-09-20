@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dfc2ec9c5d64449aeef780d9e8d5f7, type: 3}
+  m_Name: 200 InfernalBrimstoneGolem
+  m_EditorClassIdentifier: 
+  Name: Infernal Brimstone Golem
+  maxHealth: 99200
+  health: 99200
+  attack: 1196
+  defense: 6000
+  turnsCount: 6
+  abilities: []
+  value: 100
+  isHero: 0
+  animator: {fileID: 9100000, guid: decb67bd6ec162840a9f79a0cdb811cf, type: 2}
+  size: {x: 4, y: 4}
+  attackSFX: {fileID: 8300000, guid: 38179bf0f10ddc64185f8a76666a8add, type: 3}
+  spawnSFX: {fileID: 8300000, guid: 585ba81742401cb4a9a64e16aa556899, type: 3}
+  deathSFX: {fileID: 8300000, guid: 8b23c08e9e587cc468f4d737421a0df0, type: 3}
+  sprite: {fileID: 21300000, guid: 96c50402ed845a5468e5c81a122155d0, type: 3}
+  isCustom: 0
+  type: 0
+  resistances: []

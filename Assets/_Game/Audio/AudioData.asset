@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617bc393b4a7f764480cfe480853cb37, type: 3}
+  m_Name: AudioData
+  m_EditorClassIdentifier: 
+  trackList:
+    titleTrack:
+    - {fileID: 8300000, guid: 189cf5124f9c2e1498746476e66a6f90, type: 3}
+    battleTrack:
+    - {fileID: 8300000, guid: 3aca0aae845219f408140f4c9c52aa93, type: 3}
+  track: {fileID: 8300000, guid: 189cf5124f9c2e1498746476e66a6f90, type: 3}
+  playSet: 0
+  masterVolume: 1
+  sfxMute: 0
+  sfxVolume: 0.7
+  trackMute: 0
+  trackVolume: 0.58338195

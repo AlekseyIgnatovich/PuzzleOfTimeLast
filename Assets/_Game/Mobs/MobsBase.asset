@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f381166cdd5334cae26ba035730dac, type: 3}
+  m_Name: MobsBase
+  m_EditorClassIdentifier: 
+  mob:
+  - {fileID: 11400000, guid: 8453a067b9dd707458131230b6eff6c3, type: 2}
+  - {fileID: 11400000, guid: ae2ad6c87df03944db094c132382b77e, type: 2}
+  - {fileID: 11400000, guid: cd36d1fadc31f724ea4a7ea86267efbd, type: 2}
+  leftMob: {fileID: 11400000, guid: 8453a067b9dd707458131230b6eff6c3, type: 2}
+  middleMob: {fileID: 11400000, guid: ae2ad6c87df03944db094c132382b77e, type: 2}
+  rightMob: {fileID: 11400000, guid: 8453a067b9dd707458131230b6eff6c3, type: 2}

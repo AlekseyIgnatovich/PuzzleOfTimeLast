@@ -1,0 +1,3 @@
+rep "Cloud Repositories/knox_delivery@20067029707811@cloud"
+  path "/"
+    smartbranch "/main/Project replace/Fix for Android build/Update Size Fix"
