@@ -38,12 +38,24 @@ public class ItemsData : ScriptableObject
 
     public void AddItem(ItemObject _item)
     {
+        if (_item == null)
+        {
+            Debug.LogError($"Try add null Item");
+            return;
+        }
+        
         bool _done = false;
         //if item is currency
 
         //check for same item 
         for (int i = 0; i < items.Count; i++)
         {
+            if (items[i] == null)
+            {
+                Debug.LogError($"Item {i} is null in {settings.name}");
+                continue;
+            }
+            
             //Debug.Log("Comparing item: " + _item.id + "with: " + items[i].id);
             if (items[i] == _item)
             {
