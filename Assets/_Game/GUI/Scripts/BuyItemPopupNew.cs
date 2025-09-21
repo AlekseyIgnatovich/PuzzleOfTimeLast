@@ -18,8 +18,11 @@ public class BuyItemPopupNew : MonoBehaviour
     public void Setup(ItemsPackPanel _itemPack, PackItem _item)
     {
         item = _item;
-        iapButton.productId = _itemPack.Name;
-        itemsPack = _itemPack;
+        if (_itemPack != null)
+        {
+            iapButton.productId = _itemPack.Name;
+            itemsPack = _itemPack;
+        }
 
         gameObject.SetActive(true);
 

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -57,11 +58,22 @@ public class DailySpin : MonoBehaviour
         lockedObj.SetActive(true);
         firestoreManager.playerData.lastDailySpinTime = DateTime.Now;
         PickReward();
-        FirebaseManager.instance.gameManager.ads.RewardedAd(() =>
-        {
-            StartCoroutine(SpinWheelCoroutine());
-        });
+
+        BuyWithVideoAsync();
     }
+    
+    private async UniTask BuyWithVideoAsync()
+    {
+        var result = await AdsManager.instance.ShowAddAsync(AdRewardType.speen_wheel);
+        if (!result)
+        {
+            Debug.LogError($"Failed buying with video ads");
+            return;
+        }
+
+        await SpinWheelCoroutine();
+    }
+    
     void PickReward()
     {
         List<int> picks = new List<int>();
@@ -74,18 +86,16 @@ public class DailySpin : MonoBehaviour
         }
         rewardIndex = picks[UnityEngine.Random.Range(0, picks.Count)];
     }
-    IEnumerator SpinWheelCoroutine()
+    
+    private async UniTask SpinWheelCoroutine()
     {
         float animTime = 7f;
-
         float initialSpins = 360 * 4;
         float totalSpins = initialSpins + ((rewardItemAngle + 0.44f) * rewardIndex);
         for (int i = 0; i < wheelRects.Length; i++) LeanTween.rotateAround(wheelRects[i], Vector3.forward, totalSpins, animTime).setEaseOutQuint();
 
-        yield return new WaitForSeconds(animTime);
-
+        await UniTask.Delay(TimeSpan.FromSeconds(animTime));
         FirebaseManager.instance.gameManager.rewardManager.CollectReward(rewards[rewardIndex].reward);
-        //print(1);
 
         closeBtn.interactable = true;
     }

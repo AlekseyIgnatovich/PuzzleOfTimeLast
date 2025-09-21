@@ -6767,13 +6767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ed00313c0781847b77d3bee17a7b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rewardAds: {fileID: 1047991355}
-  _androidGameId: 5420615
-  _iOSGameId: 5420614
+  rewardAds: {fileID: 0}
   _testMode: 1
-  adLoaded: 0
-  showAds: 0
-  timer: 0
 --- !u!1 &148365584
 GameObject:
   m_ObjectHideFlags: 0
@@ -30530,60 +30525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3465b8d858c18408e659917154bbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1047991353
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1047991354}
-  - component: {fileID: 1047991355}
-  m_Layer: 0
-  m_Name: UnityRewardAds
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1047991354
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047991353}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.315844, y: 6.8383093, z: -0.13266276}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1109554859}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1047991355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047991353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d12dad608c6e242a7e1e2818eaff32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _androidAdUnitId: Rewarded_Android
-  _iOSAdUnitId: Rewarded_iOS
-  gameManager: {fileID: 1109554860}
-  unityAds: {fileID: 145670591}
-  itemsData: {fileID: 11400000, guid: fbd7bf4be19cea34886c44dac3f649e5, type: 2}
-  heroBase: {fileID: 11400000, guid: 605732925f20f3d44bfec930cefd7598, type: 2}
-  lotteryPanel: {fileID: 269125207}
-  heroRewardPanel: {fileID: 489880088}
-  item: {fileID: 0}
-  rewardType: 0
 --- !u!114 &1055858755 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6575403496676163970, guid: 83f08380a0a9543308e64fc87429cb6b, type: 3}
@@ -33234,7 +33175,6 @@ Transform:
   m_Children:
   - {fileID: 490674859}
   - {fileID: 145670590}
-  - {fileID: 1047991354}
   - {fileID: 519420032}
   - {fileID: 1788989747}
   - {fileID: 962683123}
@@ -33260,7 +33200,6 @@ MonoBehaviour:
   mapsData: {fileID: 11400000, guid: 9cf418968a55c324ba63bff879b250b7, type: 2}
   levelsData: {fileID: 11400000, guid: 0d1449f8bbb6d3c48970eeaef6f577bb, type: 2}
   titansData: {fileID: 11400000, guid: 6ee72480956e909418aa4560ceb61569, type: 2}
-  ads: {fileID: 145670591}
   state: 0
   audioData: {fileID: 11400000, guid: 9a46c198e5b385747956cd18b1abdb35, type: 2}
   currentScreen: {fileID: 0}

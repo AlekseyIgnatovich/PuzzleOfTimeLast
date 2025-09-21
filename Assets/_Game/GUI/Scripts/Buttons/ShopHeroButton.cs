@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 public class ShopHeroButton : MonoBehaviour
@@ -16,6 +17,11 @@ public class ShopHeroButton : MonoBehaviour
     [SerializeField] HeroUnlockManager heroUnlockManager;
     [Space]
     public ShopItem shopItem;
+    
+    /// <summary>
+    /// Fix later
+    /// </summary>
+    [SerializeField] ShopHeroReward heroRewardPanel;
 
     private void OnEnable()
     {
@@ -33,7 +39,6 @@ public class ShopHeroButton : MonoBehaviour
 
     void SetCurrency()
     {
-
         int _index = (int)data.selectedCurrency;
         //We set the index to 1 always because the client wants to show only the diamonds price
         _index = 1;
@@ -50,9 +55,29 @@ public class ShopHeroButton : MonoBehaviour
     }
     public void BuyWithVideo()
     {
-        manager.gameManager.ads.SetupForReward(AdRewardType.Item, shopItem);
         //videoCanvas.OpenVideo(shopItem);
+
+        BuyWithVideoAsync();
     }
+
+    private async UniTask BuyWithVideoAsync()
+    {
+        var result = await AdsManager.instance.ShowAddAsync(AdRewardType.unlock_hero);
+        if (!result)
+        {
+            Debug.LogError("failed show ad");
+            return;
+        }
+        
+        var shopHeroItem = shopItem as ShopHeroItem;
+        if (shopHeroItem != null)
+        {
+            var card = shopHeroItem.GetCard();
+            heroBase.AddCardToInventory(card);
+            heroRewardPanel.Setup(card);
+        }
+    }
+    
     public void OpenHeroPackagePreview()
     {
         if (manager == null) { return; }

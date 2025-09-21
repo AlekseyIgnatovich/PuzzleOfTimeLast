@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 public class ShopItemButton : MonoBehaviour {
@@ -36,8 +37,29 @@ public class ShopItemButton : MonoBehaviour {
     public void ShowPurchasePopup() {
         buyPopup.Setup(shopItem);
     }
+    
     public void BuyWithVideo() {
-        manager.gameManager.ads.SetupForReward(AdRewardType.Item, shopItem);
-        //videoCanvas.OpenVideo(shopItem);
+        BuyWithVideoAsync();
+    }
+    
+    private async UniTask BuyWithVideoAsync()
+    {
+        var result = await AdsManager.instance.ShowAddAsync(AdRewardType.shop_item_reward);
+        if (!result)
+        {
+            Debug.LogError($"Failed buying with video ads");
+            return;
+        }
+        
+        var shopPlayItem  = this.shopItem as ShopPlayItem;
+        if (shopPlayItem != null)
+        {
+            data.AddItem(shopPlayItem.item);
+            return;
+        }
+        else
+        {
+            Debug.LogError($"Shop item is null");
+        }
     }
 }

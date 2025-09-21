@@ -1,8 +1,6 @@
 using UnityEngine;
 using System;
 using TMPro;
-using System.Collections.Generic;
-using System.Drawing;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,7 +10,6 @@ public class GameManager : MonoBehaviour
     public MapsData mapsData;
     [HideInInspector] public LevelsDatabase levelsData;
     public TitanData titansData;
-    public UnityAds ads;
     [Space]
     public GameState state;
     public AudioData audioData;
@@ -733,7 +730,13 @@ public enum CutsceneType
 public enum AdRewardType
 {
     Item,
-    HeroRevival
+    open_chest,
+    revival_hero,
+    unlock_hero,
+    free_summon,
+    special_item_reward,
+    speen_wheel,
+    shop_item_reward,
 }
 
 public enum HurtTrigger
